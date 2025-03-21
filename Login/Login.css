@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+*{
+
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+
+}
+
+
 /* .Titulo{
 
 font-size: 76px;
@@ -18,5 +28,48 @@ h1 {
 
 font-size: 76px;
 font-family: "Inter";
+font-weight: normal;
+margin-bottom: 16px;
 
 } 
+
+.input{
+
+padding: 18px;
+border: none;
+border-radius: 10px;
+background-color: #F7F9FB;
+width: 377px;
+margin-bottom: 16px;
+
+}
+
+.btn{
+
+    padding: 18px;
+    width: 377px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+.login-container{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:  70vh;
+
+
+
+
+}
+.Logo {
+
+height: 60px;
+
+
+}
