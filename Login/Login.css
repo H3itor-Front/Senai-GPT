@@ -24,6 +24,12 @@ font-size: 76px;
 
 /* {  */
 
+.page-container{
+
+display: flex;
+
+}
+
 h1 {
 
 font-size: 76px;
@@ -61,7 +67,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:  70vh;
+height: 70vh;
+width: 50vw;
 
 
 
@@ -70,6 +77,19 @@ height:  70vh;
 .Logo {
 
 height: 60px;
+
+
+}
+
+
+.robo-image{
+   
+background-image: url(..//assets/img/Sidebar.png);
+background-size: contain;
+background-repeat: no-repeat;
+
+width: 50vw;
+height: 100vh;
 
 
 }
