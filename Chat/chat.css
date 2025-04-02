@@ -1,48 +1,134 @@
-.container{
+.left-panel {
 
-display: flex;
+    height: 100vh;
+    width: 20vw;
+    border-right: 1px solid #ccc;
+
+}
+
+.central-panel {
+
+    height: 100vh;
+    width: 80vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.central-panel .logo {
+    
+    margin-top: 25vh;
+
+}
+
+.central-panel .dicas-container {
+
+    display: flex;
+    max-width: 50vw;
+    margin-top: 20px;
+
+}
+
+.central-panel .dicas-item {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.central-panel .dicas-item h2 {
+
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.central-panel .dicas-item p {
+
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #F7F9FB;
+    border-radius: 8px;
 
 
 }
-.left-panel{
 
-height: 100vh;
-width: 20vw;
-background: var(--white-100, #FFFFFF);
+.container {
 
+    display: flex;
 
 }
-.central-panel{
 
-height: 100vh;
-width: 80vw;
-background-color: blue;
+.top {
 
-}
-.top{
-width: 100%;
-height: 70%;
-border-right: 1px solid var(--black-10, #1C1C1C1A)
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 70vh;
 
 }
-.bottom{
 
-width: 100%;
-height: 70%;
-background-color:purple  ;
+.top .btn-new-chat {
+
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 10px;
 
 }
-.btn{
 
-width: 242;
-height: 5%;
-gap: 8;
-padding-top: 8;
-padding-right: 16;
-padding-bottom: 8;
-padding-left: 16;
-border-radius: 1000000;
+.btn-chat {
 
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.bottom {
+
+    border-top: 1px solid #ccc;
+    padding: 20px;
+
+}
+
+.input-container {
+
+    margin-top: auto;
+    margin-bottom: 40px;
+
+}
+
+.input-container input {
+
+    padding: 20px;
+    border: none;
+    background-color: #F7F9FB;
+    border-radius: 16px;
+    width: 40vw;
+}
+.btn-chat img{
+
+margin-right: 15px;
 
 
 
